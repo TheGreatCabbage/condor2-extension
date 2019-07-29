@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Condor2 Revive Extension",
+  "version": "1.0",
+  "description": "Modifies the links on the Condor Server List to open the Condor2 Revive Helper.",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.condorsoaring.com/serverlist*"
+      ],
+      "js": [
+        "build/kotlin-js-min/main/kotlin.js",
+        "build/kotlin-js-min/main/condor2extension.js"
+      ]
+    }
+  ]
+}

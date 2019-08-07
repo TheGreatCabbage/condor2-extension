@@ -4,6 +4,10 @@
 
 Condor2 Revive Extension is a browser extension to be used in conjunction with the [Condor2 Revive Helper](https://github.com/TheGreatCabbage/condor2-revive-helper). It modifies the links on the [Condor Server List](http://www.condorsoaring.com/serverlist/?wdt_search=cndr2) to point to the Condor2 Revive Helper instead of Condor2.
 
+## Installing
+
+To install the extension in Firefox, [click here](https://addons.mozilla.org/en-GB/firefox/addon/condor2extension/).
+
 ## Building From Source
 
 This extension is written in Kotlin/JS. To build it, execute the command `./gradlew runDceKotlin` in the root directory. You can then use `web-ext run` to test the plugin.

@@ -2,7 +2,7 @@
 <module version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JavaScript " useProjectSettings="false" isTestModule="true" externalProjectId="condor2extension">
+      <configuration version="3" platform="JavaScript " allPlatforms="JS []" useProjectSettings="false" isTestModule="true" externalProjectId="condor2extension">
         <sourceSets>
           <sourceSet>com.cabbagedevelopment.condor2extension.condor2extension.main</sourceSet>
         </sourceSets>

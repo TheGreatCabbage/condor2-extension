@@ -1,4 +1,5 @@
 import os
+import shutil
 
 """
 Using 7-Zip, packages the extension as an .xpi file
@@ -13,10 +14,11 @@ files = ("kotlin.js", "condor2extension.js")
 target = "dist"
 manifest = "manifest.json"
 
-# The paths to all files which will be added to the .xpi file.
+# The paths to all files which will be packaged.
 paths = (manifest, *[join(path, f) for f in files])
 
-zip_name = "condor2extension.zip"
+##### Create .xpi file for Firefox. #####
+zip_name = "firefox.zip"
 if zip_name in os.listdir():
     os.remove(zip_name)
 
@@ -35,3 +37,11 @@ if xpi in os.listdir(target):
 
 os.rename(zip_name, xpi_path)
 print(f"\nCreated {xpi_path}")
+
+##### Create .zip file for Chrome. #####
+chrome = "chrome.zip"
+chrome_path = join(target, chrome)
+if chrome in os.listdir(target):
+    os.remove(chrome_path)
+
+shutil.copy(xpi_path, chrome_path)

@@ -13,5 +13,9 @@
         "build/kotlin-js-min/main/condor2extension.js"
       ]
     }
+  ],
+  "permissions": [
+    "webRequest",
+    "https://api.github.com/*"
   ]
 }

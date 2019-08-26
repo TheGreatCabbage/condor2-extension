@@ -3,7 +3,7 @@ import kotlin.browser.document
 import kotlin.browser.window
 
 const val MAJOR_VERSION = 1
-const val MINOR_VERSION = 1
+const val MINOR_VERSION = 2
 
 const val RELEASES_URL = "https://api.github.com/repos/thegreatcabbage/condor2-extension/releases"
 

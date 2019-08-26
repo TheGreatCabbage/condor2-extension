@@ -2,11 +2,19 @@
 
 ## Introduction
 
-Condor2 Revive Extension is a browser extension to be used in conjunction with the [Condor2 Revive Helper](https://github.com/TheGreatCabbage/condor2-revive-helper). It modifies the links on the [Condor Server List](http://www.condorsoaring.com/serverlist/?wdt_search=cndr2) to point to the Condor2 Revive Helper instead of Condor2.
+Condor2 Extension is a browser extension which enhances the [Condor Server List](http://www.condorsoaring.com/serverlist/?wdt_search=cndr2). It greatly simplifies the process of finding a server by colour-coding columns, and adds buttons which allow VR users to seamlessly launch multiplayer sessions using Revive when the [Condor2 Revive Helper](https://github.com/TheGreatCabbage/condor2-revive-helper) is installed.
 
 ## Installing
 
-To install the extension in Firefox, [click here](https://addons.mozilla.org/en-GB/firefox/addon/condor2extension/).
+For Firefox, the extension can be installed from [here](https://addons.mozilla.org/en-GB/firefox/addon/condor2extension/) on the official Firefox addons website.
+
+## Comparison
+
+#### Condor Server List
+![Screenshot of Condor Server List without extension installed](images/screenshot_original.png)
+
+#### Condor Server List with the extension installed
+![Screenshot of Condor Server List with the extension installed](images/screenshot_new.png)
 
 ## Building From Source
 

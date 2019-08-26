@@ -1,4 +1,4 @@
-# Condor2 Revive Extension
+# Condor2 Extension
 
 ## Introduction
 

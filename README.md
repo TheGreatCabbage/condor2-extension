@@ -6,7 +6,9 @@ Condor2 Extension is a browser extension which enhances the [Condor Server List]
 
 ## Installing
 
-For Firefox, the extension can be installed from [here](https://addons.mozilla.org/en-GB/firefox/addon/condor2extension/) on the official Firefox addons website.
+For Firefox, go to [Condor2 Extension](https://addons.mozilla.org/en-GB/firefox/addon/condor2extension/) on the official Firefox addons website and click "Add to Firefox".
+
+For Google Chrome, follow the instructions on the [Releases](https://github.com/TheGreatCabbage/condor2-extension/releases) page.
 
 ## Comparison
 
@@ -18,6 +20,21 @@ For Firefox, the extension can be installed from [here](https://addons.mozilla.o
 
 ## Building From Source
 
-This extension is written in Kotlin/JS. To build it, execute the command `./gradlew runDceKotlin` in the root directory. You can then use `web-ext run` to test the plugin.
+This extension is written in Kotlin/JS. To build it, execute the Gradle task `runDceKotlin`. You can then use `web-ext run` to test the plugin.
 
-After building, you can package the plugin as an `.xpi` file by running `python package.py` (currently requires 7-Zip and Windows).
+After building, you can package the extension as an `.xpi` file for Firefox and `.zip` file for Chrome by running `python package.py` (currently requires 7-Zip and Windows).
+
+#### Windows (Powershell)
+
+In the project's root directory:
+```
+.\gradlew runDceKotlin
+```
+
+#### Linux (Bash)
+
+In the project's root directory:
+```
+chmod +x ./gradlew
+./gradlew runDceKotlin
+```

@@ -5,7 +5,7 @@ import kotlin.browser.window
 import kotlin.js.Date
 
 const val MAJOR_VERSION = 1
-const val MINOR_VERSION = 2
+const val MINOR_VERSION = 3
 
 const val RELEASES_URL = "https://api.github.com/repos/thegreatcabbage/condor2-extension/releases"
 const val INTERVAL_MILLIS = 1e3 * 3600 * 12

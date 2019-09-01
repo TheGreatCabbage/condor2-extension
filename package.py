@@ -45,3 +45,4 @@ if chrome in os.listdir(target):
     os.remove(chrome_path)
 
 shutil.copy(xpi_path, chrome_path)
+print(f"Created {chrome_path}")

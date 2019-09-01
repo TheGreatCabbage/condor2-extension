@@ -9,9 +9,11 @@ version '1.0'
 
 repositories {
     mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
+    compile("com.github.cypressious.kotlin-webextensions-declarations:webextensions-declarations:v0.4")
     implementation "org.jetbrains.kotlin:kotlin-stdlib-js"
     testImplementation "org.jetbrains.kotlin:kotlin-test-js"
 }

@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Condor2 Revive Extension",
+  "name": "Condor2 Extension",
   "version": "1.2",
   "description": "Enhances the Condor Server List and allows multiplayer sessions to launch via Revive with the Condor2 Revive Helper.",
   "content_scripts": [
@@ -15,6 +15,7 @@
     }
   ],
   "permissions": [
+    "storage",
     "webRequest",
     "https://api.github.com/*"
   ]

@@ -20,7 +20,6 @@ fun main(args: Array<String>) {
     colourDistances()
     colourLandscapes()
     colourUptimes()
-    checkForUpdates()
 }
 
 /**

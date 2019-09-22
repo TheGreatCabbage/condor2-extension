@@ -8,7 +8,7 @@ Condor2 Extension is a browser extension which enhances the [Condor Server List]
 
 For Firefox, go to [Condor2 Extension](https://addons.mozilla.org/en-GB/firefox/addon/condor2extension/) on the official Firefox addons website and click "Add to Firefox".
 
-For Google Chrome, follow the instructions on the [Releases](https://github.com/TheGreatCabbage/condor2-extension/releases) page.
+For Google Chrome, go to [Condor2 Extension](https://chrome.google.com/webstore/detail/condor2-extension/joipnfhikghfdcpkngglhkjbjhkjnlhb) on the Chrome Web Store and click "Add to Chrome".
 
 ## Comparison
 
